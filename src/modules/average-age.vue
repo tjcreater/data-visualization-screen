@@ -8,7 +8,7 @@
       <div class="title-right">
         <div class="age">
           <count-to :startVal="startAge" :endVal="avgAge" :duration="1000" :decimals="2" />
-          <span class="age-unit">岁</span>
+          <span class="age-unit">吨</span>
         </div>
       </div>
     </div>
