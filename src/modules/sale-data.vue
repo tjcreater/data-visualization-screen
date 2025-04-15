@@ -81,8 +81,8 @@ const handleData = () => {
       backgroundColor: "#424446",
       title: [
         {
-          text: "外卖销售大盘",
-          subtext: "数据由慕课外卖大数据提供",
+          text: "主营产品销售大盘",
+          subtext: "数据由盐湖大数据平台提供",
           top: "2%",
           textStyle: {
             color: "#fff",
@@ -210,7 +210,7 @@ const handleData = () => {
     animationEasing: "linear",
     animationEasingUpdate: "linear",
     title: {
-      text: "外卖销售大盘",
+      text: "盐湖产品销售大盘",
       color: "#fff",
       fontSize: 36,
     },

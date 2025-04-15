@@ -6,7 +6,7 @@
     <div class="content-wrapper">
       <div class="title-wrapper">
         <div class="left">
-          <div class="title">外卖登录设备</div>
+          <div class="title">客户登录设备</div>
           <div class="subtitle">Distribution of Internet devices</div>
         </div>
         <div class="right">

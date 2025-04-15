@@ -75,14 +75,14 @@ const initData = (newProps: any, oldProps: any) => {
       img: "https://www.youbaobao.xyz/datav-res/order.png",
     },
     {
-      title: "今日交易用户数",
+      title: "今日交易客户数",
       subTitle: "Today's Payed Users",
       startVal: (oldProps && oldProps.orderUser) || 0,
       endVal: newProps.orderUser,
       img: "https://www.youbaobao.xyz/datav-res/member.png",
     },
     {
-      title: "今日新增用户数",
+      title: "今日新增客户数",
       subTitle: "Today's New Users",
       startVal: (oldProps && oldProps.userToday) || 0,
       endVal: newProps.userToday,

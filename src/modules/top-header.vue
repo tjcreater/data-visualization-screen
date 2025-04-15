@@ -6,13 +6,13 @@
         src="https://datav.oss-cn-hangzhou.aliyuncs.com/uploads/images/54149aa06f26afcf26f42d66c999ee8b.png"
       />
       <div class="logo-text">
-        <div class="cn-text">外卖业务数据大盘</div>
+        <div class="cn-text">盐湖CRM数据大盘</div>
         <div class="en-text">Delivery Overview of Business Data</div>
       </div>
     </div>
     <div class="right">
       <div class="time">{{ time }}</div>
-      <div class="author">@sherwin</div>
+      <div class="author"></div>
     </div>
   </div>
 </template>

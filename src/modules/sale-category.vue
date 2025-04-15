@@ -2,7 +2,7 @@
   <div class="sale-category-wrapper">
     <div class="header">
       <div class="title-wrapper">
-        <div class="title">当前热卖品类</div>
+        <div class="title">当前主销品类</div>
         <div class="subtitle">Hot Categories</div>
       </div>
       <div class="time">最后更新时间：{{ time }}</div>

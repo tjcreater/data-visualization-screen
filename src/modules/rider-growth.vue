@@ -1,7 +1,7 @@
 <template>
   <div class="rider-growth-wrapper">
     <div class="title-wrapper">
-      <div class="title">外卖骑手概况</div>
+      <div class="title">客户概况</div>
       <div class="subtitle">Rider Growth rate</div>
     </div>
     <div class="chart-wrapper">

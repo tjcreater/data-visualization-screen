@@ -2,7 +2,7 @@
   <div class="average-age-wrapper">
     <div class="title-wrapper">
       <div class="title-left">
-        <div class="title">外卖用户年龄分布&平均年龄</div>
+        <div class="title">客户需求分布&平均需求</div>
         <div class="subtitle">Distribution of Age</div>
       </div>
       <div class="title-right">

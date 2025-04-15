@@ -1,6 +1,6 @@
 <template>
   <div class="sale-rank-wrapper">
-    <div class="title">地区商家销售排行</div>
+    <div class="title">地区客户销售排行</div>
     <div class="list-wrapper">
       <div class="list-inner" v-for="(item, index) in currentData" :key="`${index}-${item.title}`">
         <sale-rank-item :data="item"></sale-rank-item>
