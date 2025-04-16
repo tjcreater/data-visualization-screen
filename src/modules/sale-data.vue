@@ -81,7 +81,7 @@ const handleData = () => {
       backgroundColor: "#424446",
       title: [
         {
-          text: "主营产品销售大盘",
+          text: "盐湖客户获客地图",
           subtext: "数据由盐湖大数据平台提供",
           top: "2%",
           textStyle: {
@@ -91,6 +91,7 @@ const handleData = () => {
           },
           subtextStyle: {
             color: "#fff",
+            fontSize: 20
           },
         },
         {
