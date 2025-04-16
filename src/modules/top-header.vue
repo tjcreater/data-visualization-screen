@@ -6,7 +6,7 @@
         src="https://datav.oss-cn-hangzhou.aliyuncs.com/uploads/images/54149aa06f26afcf26f42d66c999ee8b.png"
       />
       <div class="logo-text">
-        <div class="cn-text">盐湖CRM数据大盘</div>
+        <div class="cn-text">盐湖客户数据大盘</div>
         <div class="en-text">Delivery Overview of Business Data</div>
       </div>
     </div>

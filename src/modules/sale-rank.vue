@@ -39,6 +39,8 @@ const updateData = () => {
     const rowData = [] as any[];
     const aligns = [];
     const shopData = tempData[i].shop;
+    // 自定义商家名称
+    const customShops = ["科伦多", "凯米化工", "新顺化工", "四川明峰", "邦力达"];
     for (let j = 0; j < shopData.length; j++) {
       rowData[j] = [];
       aligns[j] = "center";
@@ -46,7 +48,8 @@ const updateData = () => {
         let text = "";
         switch (k) {
           case 0:
-            text = shopData[j].shop;
+            // 使用自定义商家名称替换原有商家名称
+            text = customShops[j % customShops.length];
             break;
           case 1:
             text = shopData[j].order;
@@ -64,7 +67,7 @@ const updateData = () => {
       }
     }
     const scrollData = {
-      headerData: ["商家", "订单数", "销售额"],
+      headerData: ["商家", "销售量", "销售额"],
       indexFlag: false,
       rowData, // 表格数据
       aligns, // 表格排序

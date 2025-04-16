@@ -10,17 +10,20 @@
           :growth-last-month="+userData.userGrowthLastMonth || 0"
         ></total-user>
       </div>
-      <div class="module average-age">
+      <div class="module average-age" style="display: none;">
         <average-age :data="ageData" :avg-age="parseFloat(userData.averageAge) || 0"></average-age>
       </div>
-      <div class="module total-device">
+      <div class="module total-device" style="display: none;">
         <total-device :data="deviceData"></total-device>
       </div>
-      <div class="module total-gender">
+      <div class="module total-gender" style="display: none;">
         <total-gender :data="userData.gender"></total-gender>
       </div>
-      <div class="module rider-growth">
+      <div class="module rider-growth" style="display: none;">
         <rider-growth :data="userData.rider"></rider-growth>
+      </div>
+      <div class="module sankey-vertical" style="padding: 20px 40px; margin-top: 20px; margin-bottom: 20px; height: calc(100% - 300px - 360px);"> 
+        <sankey-vertical></sankey-vertical>
       </div>
       <div class="module sale-category">
         <sale-category :data="userData.category"></sale-category>
@@ -31,7 +34,7 @@
         <center-header :data="userData"></center-header>
       </div>
       <div class="module country-category">
-        <nav-menu :data="['ALL', '北京', '上海', '深圳', '杭州', '南京', '武汉']"></nav-menu>
+        <nav-menu :data="['ALL', '华东', '华中', '华南', '西南', '西北', '东北']"></nav-menu>
       </div>
       <div class="inline">
         <div class="module sale-data">
@@ -44,7 +47,7 @@
       <div class="inline">
         <div class="order-trend">
           <div class="module sale-category">
-            <nav-menu :data="['订单量', '销售额', '用户数', '退单量']" bg-color="#9dc35b"></nav-menu>
+            <nav-menu :data="['线索量', '拜访量', '报价量', '客户量']" bg-color="#9dc35b"></nav-menu>
           </div>
           <div class="module average-view">
             <average-view :data="realTimeOrder"></average-view>
@@ -75,6 +78,7 @@ import PlanList from "@/modules/plan-list.vue";
 import SaleRank from "@/modules/sale-rank.vue";
 import SaleData from "@/modules/sale-data.vue";
 import ScheduleView from "@/modules/schedule-view.vue";
+import SankeyVertical from "@/modules/sankey-vertical.vue";
 import useData from "@/compositions/useData";
 
 const { ready, mapData, userData, ageData, deviceData, realTimeOrder } = useData({ once: false });

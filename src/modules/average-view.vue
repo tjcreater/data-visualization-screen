@@ -1,7 +1,7 @@
 <template>
   <div class="average-view-wrapper">
     <div class="content-wrapper">
-      <div class="title">实时订单趋势图</div>
+      <div class="title">实时业务数据趋势</div>
       <div class="subtitle">Number Of Real-time Orders</div>
       <div class="total">
         <count-to :start-val="startVal" :end-val="endVal" :duration="countToDuration" separator="," autoplay />

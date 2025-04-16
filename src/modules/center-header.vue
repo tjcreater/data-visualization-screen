@@ -49,33 +49,33 @@ const headerData = ref<any[]>([]);
 const initData = (newProps: any, oldProps: any) => {
   project.value = [
     {
-      title: "转化率",
+      title: "报价增长率",
       value: `${props.data.covertRate}%`,
       img: "https://www.youbaobao.xyz/datav-res/success.png",
     },
     {
-      title: "退单率",
+      title: "拜访增长率",
       value: `${props.data.returnRate}%`,
       img: "https://www.youbaobao.xyz/datav-res/failed.png",
     },
   ];
   headerData.value = [
     {
-      title: "今日销售额",
+      title: "今日线索数",
       subTitle: "Today's Sales Amount",
       startVal: (oldProps && oldProps.salesToday) || 0,
       endVal: newProps.salesToday,
       img: "https://www.youbaobao.xyz/datav-res/money.png",
     },
     {
-      title: "今日订单量",
+      title: "今日拜访量",
       subTitle: "Today's Total Orders",
       startVal: (oldProps && oldProps.orderToday) || 0,
       endVal: newProps.orderToday,
       img: "https://www.youbaobao.xyz/datav-res/order.png",
     },
     {
-      title: "今日交易客户数",
+      title: "今日报价量",
       subTitle: "Today's Payed Users",
       startVal: (oldProps && oldProps.orderUser) || 0,
       endVal: newProps.orderUser,

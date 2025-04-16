@@ -1,5 +1,5 @@
 <template>
-  <div class="total-device-wrapper">
+  <div class="total-device-wrapper" style="display: none;">
     <div class="chart-wrapper">
       <div ref="chartRef" class="chart"></div>
     </div>

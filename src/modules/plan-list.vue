@@ -60,7 +60,7 @@ const handleConfig = (value: any) => {
     }
   }
   config.value = {
-    headerData: ["城市订单量", "店铺数", "接单骑手人数", "新店铺数量", "人均订单量"],
+    headerData: ["地区线索数", "拜访次数", "报价次数", "签约数", "成交客户数"],
     rowData,
     aligns,
     headerIndexContent: "",
